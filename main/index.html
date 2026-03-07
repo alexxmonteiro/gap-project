@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>gap-project</title>
+
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <section class="header-container" style="background-image: url(../img/backgrounds/!mbg.jpg);">
-            <nav class="links">
-                <a href="#catalogo">CATALOGO</a>
-                <a href="#lancamentos">LANÇAMENTOS</a>
+            <nav class="nav-align">
+                <nav class="links">
+                    <a href="#catalog">CATALOGO</a>
+                    <a class="releases" href="#releases">LANÇAMENTOS</a>
+                </nav>
             </nav>
             <div class="txt">
                 <h1>Encontre Tudo Sobre os Animes do Momento</h1>
@@ -20,7 +24,7 @@
     </header>
     
     <main>
-        <section class="main-container">
+        <section id="catalog" class="main-container">
             <h1>CATALOGO</h1>
             <div class="card">
                 <div class="card-goh">
@@ -53,7 +57,7 @@
     </main>
     
     <footer>
-        <section class="footer-container">
+        <section id="releases" class="footer-container">
             <div class="slide" style="background-image: url(../img/backgrounds/goh.jpg);">
                 <div class="slide-goh">
                     <h2>THE GOD OF HIGHSCHOOL</h2>
