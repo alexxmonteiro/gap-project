@@ -1,76 +1,87 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap');
 
+/* Universal selector - applies to all elements */
 *{
-    font-family: 'Quicksand', Arial;
-    margin: 0;
-    border: 0;
+    font-family: 'Quicksand', Arial;  /* Sets default font family with fallback */
+    margin: 0;    /* Removes default margins */
+    border: 0;    /* Removes default borders */
 }
 
+/* Main header container styles */
 .header-container{
-    width: auto 100%;
-    height: 800px;
+    width: auto 100%;    /* Auto width with 100% fallback */
+    height: 800px;       /* Fixed height for hero section */
 
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    /* Background image properties */
+    background-size: cover;      /* Ensures image covers entire container */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents image repetition */
 
-    color: white;
+    color: white;  /* Sets text color to white for contrast against background */
 
+    /* Flexbox for centering content */
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: center;      /* Vertically centers content */
+    justify-content: center;  /* Horizontally centers content */
 }
 
+/* Navigation positioning container */
 .nav-align{
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 50px 0px;
-    box-sizing: border-box;
+    width: 100%;          /* Full width */
+    position: absolute;   /* Absolute positioning relative to header */
+    top: 0;              /* Aligns to top */
+    left: 0;             /* Aligns to left */
+    padding: 50px 0px;   /* Vertical padding only */
+    box-sizing: border-box; /* Includes padding in width calculation */
 }
 
+/* Navigation links container */
 .links{
-    display: flex;
-    gap: 45px;
-    justify-content: flex-end;
-    margin-right: 150px;
-    align-items: center;
+    display: flex;           /* Flexbox for horizontal layout */
+    gap: 45px;               /* Space between links */
+    justify-content: flex-end; /* Aligns links to the right */
+    margin-right: 150px;      /* Right margin from edge */
+    align-items: center;      /* Vertically centers items */
 }
 
+/* Individual link styles */
 .links a{
-    font-size: 24px;
-    font-weight: bold;
+    font-size: 24px;      /* Large font size for visibility */
+    font-weight: bold;    /* Bold text */
 
-    color: white;
-    text-decoration: none;
+    color: white;         /* White text color */
+    text-decoration: none; /* Removes default underline */
 }
 
+/* Special styling for the releases link/button */
 .links a.releases {
-    display: inline-block;
-    width: 200px;
-    height: 50px;
-    border: 2px solid white;
-    text-align: center;
-    line-height: 50px;
+    display: inline-block;  /* Allows width/height settings */
+    width: 200px;          /* Fixed width for button shape */
+    height: 50px;          /* Fixed height for button shape */
+    border: 2px solid white; /* White border for button effect */
+    text-align: center;     /* Centers text horizontally */
+    line-height: 50px;      /* Vertically centers text (same as height) */
 }
 
+/* Hero text container */
 .txt {
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-    text-align: center;
+    display: flex;                /* Flexbox for column layout */
+    flex-direction: column;       /* Stacks children vertically */
+    align-items: center;          /* Centers children horizontally */
+    text-align: center;           /* Centers text */
 
-    padding: 500px;
-    margin-top: 150px;
+    padding: 500px;              /* Large padding - might be too much */
+    margin-top: 150px;            /* Top margin to push down from navigation */
 }
 
-.txt h1{
-    font-size: 40px;
-    font-weight: bold;
+/* Main headline styles */
+.txt h1{ 
+    font-size: 40px;      /* Large font for emphasis */
+    font-weight: bold;    /* Bold for importance */
 }
 
+/* Subtitle/paragraph styles */
 .txt p{
-    font-size: 20px;
-    font-weight: normal;
+    font-size: 20px;      /* Smaller than h1 but still prominent */
+    font-weight: normal;  /* Regular weight for contrast with h1 */
 }
