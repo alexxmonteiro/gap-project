@@ -86,38 +86,52 @@
     font-weight: normal;  /* Regular weight for contrast with h1 */
 }
 
+/* Main container styling for the catalog section */
 .main-container{
+    /* Full width with auto adjustment, fixed height of 850px */
     width: auto 100%;
     height: 850px;
 }
 
+/* Styling for the main heading inside catalog container */
 .main-container h1{
+    /* Flexbox for centering the text */
     display: flex;
     justify-content: center;
     align-items: center;
 
+    /* Text styling */
     font-weight: bold;
     font-size: 48px;
 
+    /* Spacing around the heading */
     margin-top: 120px;
     margin-bottom: 45px;
 }
 
+/* Container for all catalog cards - uses flexbox layout */
 .cards{
+    /* Centers cards horizontally */
     display: flex;
     justify-content: center;
 
+    /* Space between individual cards */
     gap: 70px;
 }
 
+/* Styling for all images within cards */
 .cards img{
+    /* Fixed dimensions for consistent card sizing */
     width: 245px;
     height: 350px;
 
+    /* Slightly rounded corners for images */
     border-radius: 6px;
 }
 
+/* Styling for all headings within cards */
 .cards h3{
+    /* Bold text with smaller font size */
     font-weight: bold;
     font-size: 15px;
 }
