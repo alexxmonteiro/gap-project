@@ -136,56 +136,72 @@
     font-size: 13px;
 }
 
+/* Main container styling for the footer/releases section */
 .footer-container{
+    /* Full width with auto adjustment, fixed height of 850px */
     width: auto 100%;
     height: 850px;
 }
 
+/* Individual slide styling for each featured anime */
 .slide{
+    /* Full width and fixed height for consistent slide sizing */
     width: 100%;
     height: 850px;
 
-    background-size: cover;      
-    background-position: center;  
-    background-repeat: no-repeat;
+    /* Background image properties */
+    background-size: cover;      /* Ensures image covers entire slide */
+    background-position: center;  /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents image tiling */
 
+    /* Text color for better contrast against dark backgrounds */
     color: white;
 
+    /* Flexbox layout for content alignment */
     display: flex;
     align-content: center;
 
+    /* Box sizing and padding */
     box-sizing: border-box;
-    padding: 90px;
+    padding: 90px;  /* Creates space around content */
 }
 
+/* Styling for slide headings (title and year) */
 .slide h2{
     font-size: 24px;
     font-weight: bold;
 
+    /* Stacks title and year vertically */
     display: flex;
     flex-direction: column;
 }
 
+/* Styling for anime/movie descriptions */
 .slide p{
-    font-size: 34px;
-    font-weight: lighter;
+    font-size: 34px;        /* Large text for readability */
+    font-weight: lighter;    /* Lighter weight for better visual hierarchy */
 
-    padding-right: 250px;
-    margin-top: 45px;
+    padding-right: 250px;    /* Creates space on the right side */
+    margin-top: 45px;        /* Spacing from the title */
 }
 
+/* Styling for call-to-action buttons */
 .slide button {
+    /* Transparent background with white border */
     background-color: transparent;
     border: 2px solid #fff;
     color: white;
 
+    /* Typography */
     font-size: 24px;
     font-weight: bold;
-    letter-spacing: 1px;
+    letter-spacing: 1px;     /* Slight letter spacing for emphasis */
     
-    cursor: pointer;
+    /* Interaction feedback */
+    cursor: pointer;          /* Changes cursor to pointer on hover */
 
-    padding: 20px 30px;
-    display: block;
-    margin: 100px auto;
+    /* Spacing and positioning */
+    padding: 20px 30px;       /* Button internal padding */
+    display: block;           /* Makes button a block element */
+    margin: 100px auto;       /* Centers button horizontally with top margin */
 }
