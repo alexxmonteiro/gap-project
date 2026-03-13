@@ -140,7 +140,14 @@
 .footer-container{
     /* Full width with auto adjustment, fixed height of 850px */
     width: auto 100%;
-    height: 850px;
+    height: 800px;
+
+    position: relative;
+    overflow: hidden;
+}
+
+.footer-container input[type="radio"]{
+    display: none;
 }
 
 /* Individual slide styling for each featured anime */
@@ -204,4 +211,52 @@
     padding: 20px 30px;       /* Button internal padding */
     display: block;           /* Makes button a block element */
     margin: 100px auto;       /* Centers button horizontally with top margin */
+}
+
+.slides {
+    display: flex;
+    
+    width: 300%;
+    height: 100%;
+
+    transition: transform 0.5s ease-in-out;
+}
+
+.navigation-btn {
+    position: absolute;
+    
+    bottom: 30px;
+    left: 50%;
+    gap: 8px;
+
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.nav-btn {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    
+    border-radius: 50%;
+    background-color: #DDDDDD;
+    cursor: pointer;
+}
+
+#radio1:checked ~ .navigation-btn label[for="radio1"],
+#radio2:checked ~ .navigation-btn label[for="radio2"],
+#radio3:checked ~ .navigation-btn label[for="radio3"] {
+    background-color: white;
+}
+
+#radio1:checked ~ .slides {
+    transform: translateX(0);
+}
+
+#radio2:checked ~ .slides {
+    transform: translateX(-33.333%);
+}
+
+#radio3:checked ~ .slides {
+    transform: translateX(-66.666%);
 }
