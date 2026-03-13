@@ -146,6 +146,7 @@
     overflow: hidden;
 }
 
+/* Hides the radio input buttons while keeping them functional */
 .footer-container input[type="radio"]{
     display: none;
 }
@@ -213,50 +214,55 @@
     margin: 100px auto;       /* Centers button horizontally with top margin */
 }
 
+/* Container for all slides - creates a horizontal strip for sliding effect */
 .slides {
     display: flex;
     
-    width: 300%;
+    width: 300%;              /* Three times the container width for three slides */
     height: 100%;
 
-    transition: transform 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out;  /* Smooth sliding animation */
 }
 
+/* Navigation buttons container - positioned at the bottom center */
 .navigation-btn {
     position: absolute;
     
     bottom: 30px;
     left: 50%;
-    gap: 8px;
+    gap: 8px;                 /* Space between navigation dots */
 
-    transform: translateX(-50%);
+    transform: translateX(-50%);  /* Centers the navigation container */
     display: flex;
 }
 
+/* Individual navigation dot styling */
 .nav-btn {
     display: inline-block;
     width: 10px;
     height: 10px;
     
-    border-radius: 50%;
-    background-color: #DDDDDD;
+    border-radius: 50%;        /* Makes the dots circular */
+    background-color: #DDDDDD;  /* Light gray color for inactive dots */
     cursor: pointer;
 }
 
+/* Active state for navigation dots - turns white when selected */
 #radio1:checked ~ .navigation-btn label[for="radio1"],
 #radio2:checked ~ .navigation-btn label[for="radio2"],
 #radio3:checked ~ .navigation-btn label[for="radio3"] {
     background-color: white;
 }
 
+/* Slide positioning for each radio button selection */
 #radio1:checked ~ .slides {
-    transform: translateX(0);
+    transform: translateX(0);            /* Shows first slide */
 }
 
 #radio2:checked ~ .slides {
-    transform: translateX(-33.333%);
+    transform: translateX(-33.333%);     /* Shows second slide */
 }
 
 #radio3:checked ~ .slides {
-    transform: translateX(-66.666%);
+    transform: translateX(-66.666%);     /* Shows third slide */
 }
