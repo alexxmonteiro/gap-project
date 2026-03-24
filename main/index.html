@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>gap-project</title>
 
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
 </head>
-<body> 
+
+<body>
     <!-- Header section containing the main navigation and hero content -->
-    <header>  
+    <header>
         <!-- Main header container with background image -->
-        <section class="header-container" style="background-image: url(../img/backgrounds/!mbg.jpg);"> 
+        <section class="header-container" style="background-image: url(../img/backgrounds/!mbg.jpg);">
             <!-- Navigation wrapper for positioning -->
             <nav class="nav-align">
                 <!-- Navigation links container -->
@@ -31,18 +34,18 @@
             </div>
         </section>
     </header>
-    
+
     <!-- Main section containing the catalog of anime items -->
     <main>
         <!-- Catalog section with unique identifier for navigation -->
         <section id="catalog" class="main-container">
             <!-- Main heading for the catalog section -->
             <h1>CATALOGO</h1>
-            
+
             <!-- Container for all catalog cards -->
             <div class="cards">
                 <!-- Individual card for "The God of Highschool" anime -->
-                <div class="card-goh">
+                <div onclick="openGoh()" class="card-goh">
                     <!-- Cover image for The God of Highschool -->
                     <img src="../img/covers/cGoh.jpg" alt="The God of Highschool cover">
                     <!-- Anime title -->
@@ -52,7 +55,7 @@
                 </div>
 
                 <!-- Individual card for "Evangelion 3.0" movie -->
-                <div class="card-eva">
+                <div onclick="openEva()" class="card-eva">
                     <!-- Cover image for Evangelion 3.0 -->
                     <img src="../img/covers/cEva.jpg" alt="Evangelion 3.0 cover">
                     <!-- Movie title -->
@@ -62,7 +65,7 @@
                 </div>
 
                 <!-- Individual card for "Mob Psycho 100" anime -->
-                <div class="card-mob">
+                <div onclick="openMob()" class="card-mob">
                     <!-- Cover image for Mob Psycho 100 -->
                     <img src="../img/covers/cMob.jpg" alt="Mob Psycho 100 cover">
                     <!-- Anime title -->
@@ -81,18 +84,18 @@
             </div>
         </section>
     </main>
-    
+
     <!-- Footer section containing featured anime releases with background images and descriptions -->
     <footer>
         <!-- Releases section with unique identifier for navigation -->
         <section id="releases" class="footer-container">
-            
+
             <input type="radio" name="slider" id="radio1" checked>
             <input type="radio" name="slider" id="radio2">
             <input type="radio" name="slider" id="radio3">
-            
+
             <div class="slides">
-                    <!-- First slide: The God of Highschool -->
+                <!-- First slide: The God of Highschool -->
                 <div class="slide" style="background-image: url(../img/backgrounds/goh.jpg);">
                     <div class="slide-goh">
                         <!-- Anime title -->
@@ -100,12 +103,12 @@
                         <!-- Release year -->
                         <h2>2020</h2>
                         <!-- Anime description in Portuguese -->
-                        <p>Jin Mori diz a todos que é o colegial mais forte que existe. Sua vida muda 
-                            quando é convidado a participar do "God of High School", um torneio que 
-                            decidirá quem é o colegial mais forte de todos, e que garantirá ao vencedor 
-                            a realização de qualquer desejo que ele tiver. Todos os participantes são 
-                            poderosos guerreiros que lutarão com afinco para alcançar seus sonhos. Uma 
-                            batalha caótica entre lutadores colegiais inacreditavelmente fortes está 
+                        <p>Jin Mori diz a todos que é o colegial mais forte que existe. Sua vida muda
+                            quando é convidado a participar do "God of High School", um torneio que
+                            decidirá quem é o colegial mais forte de todos, e que garantirá ao vencedor
+                            a realização de qualquer desejo que ele tiver. Todos os participantes são
+                            poderosos guerreiros que lutarão com afinco para alcançar seus sonhos. Uma
+                            batalha caótica entre lutadores colegiais inacreditavelmente fortes está
                             prestes a começar!</p>
                         <!-- Call-to-action button -->
                         <button type="button">SAIBA MAIS...</button>
@@ -120,11 +123,11 @@
                         <!-- Release year -->
                         <h2>2018</h2>
                         <!-- Anime description in Portuguese -->
-                        <p>Kageyama Shigeo, o "Mob", é um garoto que não leva muito jeito pra 
-                            se expressar, mas que é um poderoso telepata. Decidido a levar uma 
-                            vida normal, Mob suprime seus poderes, mas quando suas emoções 
-                            atingem 100%, algo terrível acontece! Rodeado de falsos telepatas e 
-                            espíritos malignos, que decisões ele vai tomar? esse anime é 
+                        <p>Kageyama Shigeo, o "Mob", é um garoto que não leva muito jeito pra
+                            se expressar, mas que é um poderoso telepata. Decidido a levar uma
+                            vida normal, Mob suprime seus poderes, mas quando suas emoções
+                            atingem 100%, algo terrível acontece! Rodeado de falsos telepatas e
+                            espíritos malignos, que decisões ele vai tomar? esse anime é
                             produzido pelo estúdio Bones!</p>
                         <!-- Call-to-action button -->
                         <button type="button">SAIBA MAIS...</button>
@@ -139,12 +142,12 @@
                         <!-- Release year -->
                         <h2>2012</h2>
                         <!-- Movie description in Portuguese -->
-                        <p>Shinji é resgatado 14 anos após o quase fim do mundo, mas descobre que 
+                        <p>Shinji é resgatado 14 anos após o quase fim do mundo, mas descobre que
                             agora é tratado como inimigo por seus antigos aliados. Manipulado pelo
                             pai, ele pilota um novo Eva ao lado de Kaworu, o único que lhe oferece
-                            amizade. A missão era para "consertar" o mundo, mas era uma armadilha: 
-                            Shinji desencadeia o Quarto Impacto. Kaworu se sacrifica para detê-lo, 
-                            deixando Shinji catatônico e arrasado, arrastado por Asuka por um mundo 
+                            amizade. A missão era para "consertar" o mundo, mas era uma armadilha:
+                            Shinji desencadeia o Quarto Impacto. Kaworu se sacrifica para detê-lo,
+                            deixando Shinji catatônico e arrasado, arrastado por Asuka por um mundo
                             em ruínas.</p>
                         <!-- Call-to-action button -->
                         <button type="button">SAIBA MAIS...</button>
@@ -159,6 +162,146 @@
             </div>
         </section>
     </footer>
+    
+     <section class="mod-window" id="modGoh">
+        <div class="goh-window">
+            <div class="cont">
+                <img class="cover" src="../img/covers/cGoh.jpg" alt="cGoh.jpg">
+
+                <div class="trailer-container">
+                    <iframe width="300" height="200" src="https://www.youtube.com/embed/6neZpgomTzM?si=R73JW0jwpbkT8Z_h"
+                        title="YouTube video player" frameborder="0" referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen></iframe>
+                </div>
+
+                <div class="title">
+                    <h2>THE GOD OF HIGH SCHOOL</h2>
+                    <h3>2020</h3>
+                </div>
+            </div>
+        </div>
+        
+        <div class="content">
+            <div class="description">
+                <h3>RATING: 8.5/10</h3>
+
+                <p>Jin Mori diz a todos que é o colegial mais forte que existe.
+                    Sua vida muda quando é convidado a participar do "God of High School", um torneio
+                    que decidirá quem é o colegial mais forte de todos, e que garantirá ao vencedor
+                    a realização de qualquer desejo que ele tiver. Todos os participantes são
+                    poderosos guerreiros que lutarão com afinco para alcançar seus sonhos. Uma
+                    batalha caótica entre lutadores colegiais inacreditavelmente fortes está
+                    prestes a começar!</p>
+            </div>
+
+            <div class="info-section">
+                <div class="info">
+                    <h3>GÊNEROS</h3>
+                    <p>Ação - Artes Marciais - Sobrenatural - Shounen - Escolar</p>
+                </div>
+
+                <div class="info">
+                    <h3>DUBLAGENS</h3>
+                    <p>Japonês - Português/Brasil - Inglês</p>
+                </div>
+
+                <p class="close" id="close"">FECHAR</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="mod-window" id="modEva">
+        <div class="eva-window">
+            <div class="cont">
+                <img class="cover" src="../img/covers/cEva.jpg" alt="cEva.jpg">
+
+                <div class="trailer-container">
+                    <iframe width="300" height="200" src="https://www.youtube.com/embed/pwLw2hNNz2M?si=pdMWWeYTtA8MQGW_" 
+                        title="YouTube video player" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" 
+                        allowfullscreen></iframe>
+                </div>
+
+                <div class="title">
+                    <h2>EVANGELION 3.0 YOU CAN (NOT) REDO</h2>
+                    <h3>2012</h3>
+                </div>
+            </div>
+        </div>
+        
+        <div class="content">
+            <div class="description">
+                <h3>RATING: 7.8/10</h3>
+
+                <p>Shinji é resgatado 14 anos após o quase fim do mundo, mas descobre que agora é 
+                    tratado como inimigo por seus antigos aliados. Manipulado pelo pai, ele pilota 
+                    um novo Eva ao lado de Kaworu, o único que lhe oferece amizade. A missão era 
+                    para "consertar" o mundo, mas era uma armadilha: Shinji desencadeia o Quarto 
+                    Impacto. Kaworu se sacrifica para detê-lo, deixando Shinji catatônico e 
+                    arrasado, arrastado por Asuka por um mundo em ruínas.</p>
+            </div>
+
+            <div class="info-section">
+                <div class="info">
+                    <h3>GÊNEROS</h3>
+                    <p>Ação - Ficção Científica - Drama - Psicológico - Mecha</p>
+                </div>
+
+                <div class="info">
+                    <h3>DUBLAGENS</h3>
+                    <p>Japonês - Português/Brasil - Inglês - Espanhol - Francês - Alemão - Italiano</p>
+                </div>
+
+                <p class="close" id="close"">FECHAR</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="mod-window" id="modMob">
+        <div class="mob-window">
+            <div class="cont">
+                <img class="cover" src="../img/covers/cMob.jpg" alt="cMob.jpg">
+
+                <div class="trailer-container">
+                    <iframe width="300" height="200" src="https://www.youtube.com/embed/Ah7lTT-NKMw?si=PI1ee0QxxZsr9McQ" 
+                        title="YouTube video player" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" 
+                        allowfullscreen></iframe>
+                </div>
+
+                <div class="title">
+                    <h2>MOB PSYCHO 100</h2>
+                    <h3>2018</h3>
+                </div>
+            </div>
+        </div>
+        
+        <div class="content">
+            <div class="description">
+                <h3>RATING: 8.5/10</h3>
+
+                <p>Kageyama Shigeo, o "Mob", é um garoto que não leva muito jeito pra
+                    se expressar, mas que é um poderoso telepata. Decidido a levar uma
+                    vida normal, Mob suprime seus poderes, mas quando suas emoções
+                    atingem 100%, algo terrível acontece! Rodeado de falsos telepatas e
+                    espíritos malignos, que decisões ele vai tomar? esse anime é
+                    produzido pelo estúdio Bones!</p>
+            </div>
+
+            <div class="info-section">
+                <div class="info">
+                    <h3>GÊNEROS</h3>
+                    <p>Ação - Comédia - Sobrenatural - Shounen - Slice of Life</p>
+                </div>
+
+                <div class="info">
+                    <h3>DUBLAGENS</h3>
+                    <p>Japonês - Português/Brasil - Inglês</p>
+                </div>
+
+                <p class="close" id="close"">FECHAR</p>
+            </div>
+        </div>
+    </section>
 
 </body>
+
 </html>
