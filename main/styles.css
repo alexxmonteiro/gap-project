@@ -429,30 +429,31 @@
     cursor: pointer; /* Indicates clickable element */
 }
 
+/* Container - Horizontal layout for movie items */
 .titles-container{
     display: flex;
     margin-left: 50px;
     margin-top: 50px;
-
-    gap: 45px;
+    gap: 45px; /* Space between movie cards */
 }
 
+/* Movie poster - Fixed dimensions with rounded corners */
 .movie-item img{
     width: 250px;
     height: 350px;
-
     border-radius: 5px;
 }
 
+/* Movie titles - Left aligned, bold, small text */
 .movie-item h2{
     text-align: left;
     font-weight: bold;
     font-size: 14px;
 }
 
+/* Close button - Red clickable text positioned below first movie */
 .close-more{
     cursor: pointer;
     color: red;
-
     margin-top: 20px;
 }

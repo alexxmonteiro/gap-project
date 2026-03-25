@@ -32,12 +32,12 @@ function openMob(){
 }
 
 function openMore(){
-    const mod = document.getElementById('modMore'); /* Gets Mob Psycho 100 modal */
-    mod.classList.add('open') /* Shows modal */
+    const mod = document.getElementById('modMore');  /* Target modal container */
+    mod.classList.add('open');                       /* Show modal */
     
     mod.addEventListener('click', (e) =>{
-        if(e.target.id == 'close'){ /* Checks if clicked element is the close button */
-            mod.classList.remove('open'); /* Hides modal */
+        if(e.target.id == 'close'){                  /* Verify close button click */
+            mod.classList.remove('open');             /* Hide modal */
         }
     })
 }
