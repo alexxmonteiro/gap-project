@@ -75,7 +75,7 @@
                 </div>
 
                 <!-- Card linking to additional catalog items -->
-                <div class="card-more">
+                <div onclick="openMore()" class="card-more">
                     <!-- Cover image for "See more" section -->
                     <img src="../img/covers/cMr.jpg" alt="See more cover">
                     <!-- Link/text indicating more items available -->
@@ -175,7 +175,8 @@
                 <!-- YouTube trailer embed section - 300x200px iframe with rounded corners -->
                 <div class="trailer-container">
                     <iframe width="300" height="200" src="https://www.youtube.com/embed/6neZpgomTzM?si=R73JW0jwpbkT8Z_h"
-                        title="YouTube video player" frameborder="0" referrerpolicy="strict-origin-when-cross-origin"
+                        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        referrerpolicy="strict-origin-when-cross-origin"
                         allowfullscreen></iframe>
                 </div>
 
@@ -232,7 +233,8 @@
                 <!-- YouTube trailer embed section - 300x200px iframe with rounded corners -->
                 <div class="trailer-container">
                     <iframe width="300" height="200" src="https://www.youtube.com/embed/pwLw2hNNz2M?si=pdMWWeYTtA8MQGW_" 
-                        title="YouTube video player" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" 
+                        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        referrerpolicy="strict-origin-when-cross-origin" 
                         allowfullscreen></iframe>
                 </div>
 
@@ -288,7 +290,8 @@
                 <!-- YouTube trailer embed section - 300x200px iframe with rounded corners -->
                 <div class="trailer-container">
                     <iframe width="300" height="200" src="https://www.youtube.com/embed/Ah7lTT-NKMw?si=PI1ee0QxxZsr9McQ" 
-                        title="YouTube video player" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" 
+                        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        referrerpolicy="strict-origin-when-cross-origin" 
                         allowfullscreen></iframe>
                 </div>
 
@@ -328,6 +331,30 @@
 
                 <!-- Close button - red text with pointer cursor, triggers modal to close when clicked -->
                 <p class="close" id="close"">FECHAR</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="mod-window" id="modMore">
+        <div class="titles-container">
+            <div class="movie-item">
+                <img src="../img/covers/cGoh.jpg" alt="goh.jpg">
+                <h2>THE GOD OF HIGH SCHOOL</h2>
+                <h2>2020</h2>
+
+                <p class="close-more" id="close"">FECHAR</p>
+            </div>
+            
+            <div class="movie-item">
+                <img src="../img/covers/cEva.jpg" alt="eva.jpg">
+                <h2>EVANGELION 3.0 YOU CAN (NOT) REDO</h2>
+                <h2>2012</h2>
+            </div>
+            
+            <div class="movie-item">
+                <img src="../img/covers/cMob.jpg" alt="mob.jpg">
+                <h2>MOB PSYCHO 100</h2>
+                <h2>2018</h2>
             </div>
         </div>
     </section>

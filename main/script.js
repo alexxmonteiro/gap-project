@@ -30,3 +30,14 @@ function openMob(){
         }
     })
 }
+
+function openMore(){
+    const mod = document.getElementById('modMore'); /* Gets Mob Psycho 100 modal */
+    mod.classList.add('open') /* Shows modal */
+    
+    mod.addEventListener('click', (e) =>{
+        if(e.target.id == 'close'){ /* Checks if clicked element is the close button */
+            mod.classList.remove('open'); /* Hides modal */
+        }
+    })
+}

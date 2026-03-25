@@ -428,3 +428,31 @@
     color: red; /* Red color for close button visibility */
     cursor: pointer; /* Indicates clickable element */
 }
+
+.titles-container{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 50px;
+
+    gap: 45px;
+}
+
+.movie-item img{
+    width: 250px;
+    height: 350px;
+
+    border-radius: 5px;
+}
+
+.movie-item h2{
+    text-align: left;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.close-more{
+    cursor: pointer;
+    color: red;
+
+    margin-top: 20px;
+}
