@@ -136,44 +136,52 @@
     font-size: 13px;
 }
 
+/* Card component for The God of High School anime */
+/* Provides interactive hover effect with smooth lift animation */
 .card-goh{
-    cursor: pointer;
-    transition: 0.3s;
+    cursor: pointer;        /* Changes cursor to pointer on hover */
+    transition: 0.3s;       /* Defines transition duration for smooth animation */
 }
 
 .card-goh:hover{
-    transition: 0.3s;
-    transform: translateY(-10px);
+    transition: 0.3s;       /* Ensures smooth return to original position */
+    transform: translateY(-10px);  /* Lifts card 10px upward on hover */
 }
 
+/* Card component for Evangelion 3.33 anime */
+/* Provides interactive hover effect with smooth lift animation */
 .card-eva{
-    cursor: pointer;
-    transition: 0.3s;
+    cursor: pointer;        /* Changes cursor to pointer on hover */
+    transition: 0.3s;       /* Defines transition duration for smooth animation */
 }
 
 .card-eva:hover{
-    transition: 0.3s;
-    transform: translateY(-10px);
+    transition: 0.3s;       /* Ensures smooth return to original position */
+    transform: translateY(-10px);  /* Lifts card 10px upward on hover */
 }
 
+/* Card component for Mob Psycho 100 anime */
+/* Provides interactive hover effect with smooth lift animation */
 .card-mob{
-    cursor: pointer;
-    transition: 0.3s;
+    cursor: pointer;        /* Changes cursor to pointer on hover */
+    transition: 0.3s;       /* Defines transition duration for smooth animation */
 }
 
 .card-mob:hover{
-    transition: 0.3s;
-    transform: translateY(-10px);
+    transition: 0.3s;       /* Ensures smooth return to original position */
+    transform: translateY(-10px);  /* Lifts card 10px upward on hover */
 }
 
+/* Card component for additional content section */
+/* Provides interactive hover effect with smooth lift animation */
 .card-more{
-    cursor: pointer;
-    transition: 0.3s;
+    cursor: pointer;        /* Changes cursor to pointer on hover */
+    transition: 0.3s;       /* Defines transition duration for smooth animation */
 }
 
 .card-more:hover{
-    transition: 0.3s;
-    transform: translateY(-10px);
+    transition: 0.3s;       /* Ensures smooth return to original position */
+    transform: translateY(-10px);  /* Lifts card 10px upward on hover */
 }
 
 /* Main container styling for the footer/releases section */
