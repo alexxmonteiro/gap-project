@@ -5,8 +5,10 @@ function openGoh(){
     mod.addEventListener('click', (e) =>{
         if(e.target.id == 'close'){ /* Checks if clicked element is the close button */
             mod.classList.remove('open'); /* Hides modal */
+            document.body.style.overflow = 'scroll';
         }
     })
+    document.body.style.overflow = 'hidden';
 }
 
 function openEva(){
@@ -16,8 +18,10 @@ function openEva(){
     mod.addEventListener('click', (e) =>{
         if(e.target.id == 'close'){ /* Checks if clicked element is the close button */
             mod.classList.remove('open'); /* Hides modal */
+            document.body.style.overflow = 'scroll';
         }
     })
+    document.body.style.overflow = 'hidden';
 }
 
 function openMob(){
@@ -27,8 +31,10 @@ function openMob(){
     mod.addEventListener('click', (e) =>{
         if(e.target.id == 'close'){ /* Checks if clicked element is the close button */
             mod.classList.remove('open'); /* Hides modal */
+            document.body.style.overflow = 'scroll';
         }
     })
+    document.body.style.overflow = 'hidden';
 }
 
 function openMore(){
@@ -38,6 +44,8 @@ function openMore(){
     mod.addEventListener('click', (e) =>{
         if(e.target.id == 'close'){                  /* Verify close button click */
             mod.classList.remove('open');             /* Hide modal */
+            document.body.style.overflow = 'scroll';
         }
     })
+    document.body.style.overflow = 'hidden';
 }

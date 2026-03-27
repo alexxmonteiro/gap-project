@@ -279,7 +279,7 @@
 
     background-color: #000; /* Dark overlay background */
     color: #fff;
-
+    
     z-index: 9999; /* Appears above all other content */
     align-items: center;
     justify-content: center;
