@@ -136,6 +136,46 @@
     font-size: 13px;
 }
 
+.card-goh{
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.card-goh:hover{
+    transition: 0.3s;
+    transform: translateY(-10px);
+}
+
+.card-eva{
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.card-eva:hover{
+    transition: 0.3s;
+    transform: translateY(-10px);
+}
+
+.card-mob{
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.card-mob:hover{
+    transition: 0.3s;
+    transform: translateY(-10px);
+}
+
+.card-more{
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.card-more:hover{
+    transition: 0.3s;
+    transform: translateY(-10px);
+}
+
 /* Main container styling for the footer/releases section */
 .footer-container{
     /* Full width with auto adjustment, fixed height of 850px */
