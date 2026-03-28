@@ -62,25 +62,26 @@
     border-radius: 2px;
     text-align: center;     /* Centers text horizontally */
     line-height: 50px;      /* Vertically centers text (same as height) */
-    transition: 0.5s;
+    transition: 0.5s;       /* Smooth transition for hover effects */
 }
 
 .releases:hover{
-    transition: 0.3s;
-    color: #FF7A00;
-    border: 4px solid #FF7A00;
-    transform: translateY(-5px);
+    transition: 0.3s;       /* Faster transition on hover */
+    color: #FF7A00;         /* Orange accent color on hover */
+    border: 4px solid #FF7A00; /* Border matches text color on hover */
+    transform: translateY(-5px); /* Slight upward movement on hover */
 }
 
+/* Styling for catalog links */
 .catalog{
-    color: #fff;
-    transition: 0.5s;
+    color: #fff;            /* White text color for contrast */
+    transition: 0.5s;       /* Smooth transition for hover effects */
 }
 
 .catalog:hover{
-    transition: 0.3s;
-    color: #FF7A00;
-    transform: translateY(-5px);
+    transition: 0.3s;       /* Faster transition on hover */
+    color: #FF7A00;         /* Orange accent color on hover */
+    transform: translateY(-5px); /* Slight upward movement on hover */
 }
 
 /* Hero text container */
@@ -282,12 +283,12 @@
     display: block;           /* Makes button a block element */
     margin: 100px auto;       /* Centers button horizontally with top margin */
 
-    transition: 0.5s;
+    transition: 0.5s;         /* Smooth transition for hover effects */
 }
 
 .footer-button:hover{
-    transition: 0.3;
-    transform: translateY(-10px);
+    transition: 0.3s;         /* Faster transition on hover */
+    transform: translateY(-10px); /* Lifts button upward on hover */
 }
 
 /* Container for all slides - creates a horizontal strip for sliding effect */
