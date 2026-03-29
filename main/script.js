@@ -139,8 +139,14 @@ function openGoh(){
     const mod = document.getElementById('modGoh'); /* Gets The God of High School modal */
     mod.classList.add('open') /* Shows modal */
 
+    const iframeGoh = document.getElementById('iframe-goh');
+
     mod.addEventListener('click', (e) =>{
         if(e.target.id == 'close'){ /* Checks if clicked element is the close button */
+            const videoSrc = iframeGoh.src;
+            iframeGoh.src = '';
+            iframeGoh.src = videoSrc;
+            
             mod.classList.remove('open'); /* Hides modal */
             document.body.style.overflow = 'scroll';
         }
@@ -151,9 +157,14 @@ function openGoh(){
 function openEva(){
     const mod = document.getElementById('modEva'); /* Gets Evangelion modal */
     mod.classList.add('open') /* Shows modal */
-    
+    const iframeEva = document.getElementById('iframe-eva');
+
     mod.addEventListener('click', (e) =>{
         if(e.target.id == 'close'){ /* Checks if clicked element is the close button */
+            const videoSrc = iframeEva.src;
+            iframeEva.src = '';
+            iframeEva.src = videoSrc;
+
             mod.classList.remove('open'); /* Hides modal */
             document.body.style.overflow = 'scroll';
         }
@@ -164,9 +175,14 @@ function openEva(){
 function openMob(){
     const mod = document.getElementById('modMob'); /* Gets Mob Psycho 100 modal */
     mod.classList.add('open') /* Shows modal */
-    
+    const iframeMob = document.getElementById('iframe-mob');
+
     mod.addEventListener('click', (e) =>{
         if(e.target.id == 'close'){ /* Checks if clicked element is the close button */
+            const videoSrc = iframeMob.src;
+            iframeMob.src = '';
+            iframeMob.src = videoSrc;
+            
             mod.classList.remove('open'); /* Hides modal */
             document.body.style.overflow = 'scroll';
         }
