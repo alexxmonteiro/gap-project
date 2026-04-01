@@ -534,3 +534,39 @@
     color: red;
     margin-top: 20px;
 }
+
+@media screen and (max-width: 600px){
+    .links{
+        gap: 20px;               
+        margin-right: 100px;      
+    }
+
+    .links a{
+        font-size: 15px;      
+    }
+
+    .releases {
+        width: 125px;          
+        height: 50px;         
+        border: 2px solid white; 
+        border-radius: 1px;
+    }
+
+    .releases:hover{
+        border: 2px solid #FF7A00;
+    }
+
+    .txt {
+        padding: 100px;             
+        margin-top: 125px;           
+    }
+
+    .txt h1{ 
+        font-size: 20px;
+    }
+
+    .txt p{
+        font-size: 10px;
+    }
+
+}
