@@ -571,19 +571,18 @@
         font-size: 10px;         /* Smaller paragraph text for supporting content */
     }
 
-    .main-container{
-        height: 1900px;
+    .main-container {
+        height: 1900px; /* Fixed container height for consistent page scrolling */
     }
 
-    .main-container h1{
-        margin-top: 60px;
-        margin-bottom: 45px;
+    .main-container h1 {
+        margin-top: 60px;    /* Creates top spacing from container edge */
+        margin-bottom: 45px; /* Adds separation between heading and following content */
     }
 
-    .cards{
-        flex-direction: column;
-        align-items: center;
-
-        gap: 50px;
+    .cards {
+        flex-direction: column; /* Stacks cards vertically (top to bottom) */
+        align-items: center;    /* Centers cards horizontally within the container */
+        gap: 50px;              /* Adds consistent spacing between each card */
     }
 }
