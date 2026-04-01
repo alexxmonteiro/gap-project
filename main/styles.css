@@ -538,7 +538,9 @@
 @media screen and (max-width: 600px){
     .links{
         gap: 20px;               /* Creates 20px spacing between flex/grid child elements */
-        margin-right: 100px;     /* Adds right margin to push links away from right edge */
+        margin-right: -30px;     
+
+        justify-content: center;
     }
 
     .links a{
@@ -567,5 +569,21 @@
 
     .txt p{
         font-size: 10px;         /* Smaller paragraph text for supporting content */
+    }
+
+    .main-container{
+        height: 1900px;
+    }
+
+    .main-container h1{
+        margin-top: 60px;
+        margin-bottom: 45px;
+    }
+
+    .cards{
+        flex-direction: column;
+        align-items: center;
+
+        gap: 50px;
     }
 }
