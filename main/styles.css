@@ -618,98 +618,95 @@
     }
 
     .goh-window{
-        height: 40%;
+        height: 40%; /* goh window height */
     }
 
     .mob-window{
-        height: 40%;
+        height: 40%; /* mob window height */
     }
 
     .eva-window{
-        height: 40%;
+        height: 40%; /* eva window height */
     }
 
     .cont{
-        gap: 10px; 
+        gap: 10px; /* Spacing between gallery items */
     }
 
     .cont img{
-        width: 90px;
-        height: 120px;
+        width: 90px; /* Gallery image width */
+        height: 120px; /* Gallery image height */
     }
 
     .cont iframe{
-        width: 170px;
-        height: 120px;
+        width: 170px; /* Video player width */
+        height: 120px; /* Video player height */
     }
 
     .title h2{
-        font-size: 12px;
+        font-size: 12px; /* Title heading size */
     }
 
     .title h3{
-        font-size: 12px;
+        font-size: 12px; /* Subtitle heading size */
     }
 
     .description{
-        margin-top: 20px;
-
-        padding-left: 130px;
+        margin-top: 20px; /* Top spacing */
+        padding-left: 130px; /* Left indentation */
     }
 
     .description h3{
-        font-size: 13px;
+        font-size: 13px; /* Description subheading */
     }
 
     .description p{
-        font-size: 14px;
+        font-size: 14px; /* Description text */
     }
 
     .info-section{
-        margin-top: 220px;
+        margin-top: 220px; /* Top offset for info section */
     }
 
     .info h3{
-        font-weight: bold;
-        font-size: 10px;
+        font-weight: bold; /* Bold heading */
+        font-size: 10px; /* Heading size */
     }
 
     .info p{
-        font-weight: normal;
-        font-size: 10px;
+        font-weight: normal; /* Normal text weight */
+        font-size: 10px; /* Paragraph size */
     }
 
     .close{
-        font-size: 13px;
+        font-size: 13px; /* Close button size */
     }
 
     .titles-container{
-        flex-direction: column;
-        align-items: center; 
-        justify-content: center; 
-
-        margin-top: 20px;
-        
-        gap: 20px; 
+        flex-direction: column; /* Stack vertically */
+        align-items: center; /* Center horizontally */
+        justify-content: center; /* Center vertically */
+        margin-top: 20px; /* Top spacing */
+        gap: 20px; /* Gap between items */
     }
 
     .movie-item{
-        align-items: center; 
-        text-align: center; 
+        align-items: center; /* Center content */
+        text-align: center; /* Center text */
     }
 
     .movie-item img{
-        width: 130px;
-        height: 175px;
+        width: 130px; /* Poster width */
+        height: 175px; /* Poster height */
     }
 
     .movie-item h2{
-        text-align: center;
-        font-size: 10px;
+        text-align: center; /* Center title */
+        font-size: 10px; /* Title size */
     }
 
     .close-more{
-        margin-top: -5px;
-        font-size: 13px;
+        margin-top: -5px; /* Negative top margin */
+        font-size: 13px; /* Button text size */
     }
 }
