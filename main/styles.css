@@ -586,36 +586,34 @@
         gap: 50px;              /* Adds consistent spacing between each card */
     }
 
-    .slide{
-        padding: 50px;
+    .slide {
+        padding: 50px;                          /* Adds internal spacing inside each slide */
     }
 
-    .slide h2{
-        font-size: 15px;
+    .slide h2 {
+        font-size: 15px;                       /* Sets heading text size within slides */
     }
 
-    .slide p{
-        font-size: 20px;  
-
-        padding-right: 20px;    
-        margin-top: 40px;     
+    .slide p {
+        font-size: 20px;                       /* Sets paragraph text size */
+        padding-right: 20px;                   /* Adds right internal spacing to paragraphs */
+        margin-top: 40px;                      /* Adds top spacing above paragraphs */
     }
 
     .footer-button {
-        border: 3px solid #fff;
-
-        font-size: 20px;
+        border: 3px solid #fff;                /* Creates white border around button */
+        font-size: 20px;                       /* Sets button text size */
     }
 
     #radio1:checked ~ .slides {
-        transform: translateX(0);            
+        transform: translateX(0);              /* Shows first slide */
     }
 
     #radio2:checked ~ .slides {
-        transform: translateX(-33.333%);    
+        transform: translateX(-33.333%);       /* Shows second slide */
     }
 
     #radio3:checked ~ .slides {
-        transform: translateX(-66.666%);    
+        transform: translateX(-66.666%);       /* Shows third slide */
     }
 }
