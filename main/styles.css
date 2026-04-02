@@ -585,4 +585,37 @@
         align-items: center;    /* Centers cards horizontally within the container */
         gap: 50px;              /* Adds consistent spacing between each card */
     }
+
+    .slide{
+        padding: 50px;
+    }
+
+    .slide h2{
+        font-size: 15px;
+    }
+
+    .slide p{
+        font-size: 20px;  
+
+        padding-right: 20px;    
+        margin-top: 40px;     
+    }
+
+    .footer-button {
+        border: 3px solid #fff;
+
+        font-size: 20px;
+    }
+
+    #radio1:checked ~ .slides {
+        transform: translateX(0);            
+    }
+
+    #radio2:checked ~ .slides {
+        transform: translateX(-33.333%);    
+    }
+
+    #radio3:checked ~ .slides {
+        transform: translateX(-66.666%);    
+    }
 }
