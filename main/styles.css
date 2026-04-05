@@ -587,34 +587,34 @@
     }
 
     .slide {
-        padding: 50px;                          /* Adds internal spacing inside each slide */
+        padding: 50px;   /* Adds internal spacing inside each slide */
     }
 
     .slide h2 {
-        font-size: 15px;                       /* Sets heading text size within slides */
+        font-size: 15px;   /* Sets heading text size within slides */
     }
 
     .slide p {
-        font-size: 20px;                       /* Sets paragraph text size */
-        padding-right: 20px;                   /* Adds right internal spacing to paragraphs */
-        margin-top: 40px;                      /* Adds top spacing above paragraphs */
+        font-size: 20px;    /* Sets paragraph text size */
+        padding-right: 20px;    /* Adds right internal spacing to paragraphs */
+        margin-top: 40px;   /* Adds top spacing above paragraphs */
     }
 
     .footer-button {
-        border: 3px solid #fff;                /* Creates white border around button */
-        font-size: 20px;                       /* Sets button text size */
+        border: 3px solid #fff; /* Creates white border around button */
+        font-size: 20px;    /* Sets button text size */
     }
 
     #radio1:checked ~ .slides {
-        transform: translateX(0);              /* Shows first slide */
+        transform: translateX(0);   /* Shows first slide */
     }
 
     #radio2:checked ~ .slides {
-        transform: translateX(-33.333%);       /* Shows second slide */
+        transform: translateX(-33.333%);    /* Shows second slide */
     }
 
     #radio3:checked ~ .slides {
-        transform: translateX(-66.666%);       /* Shows third slide */
+        transform: translateX(-66.666%);    /* Shows third slide */
     }
 
     .goh-window{
@@ -708,5 +708,51 @@
     .close-more{
         margin-top: -5px; /* Negative top margin */
         font-size: 13px; /* Button text size */
+    }
+}
+
+@media screen and (max-width: 400px){
+    .txt {
+        padding: 50px;          
+    }
+
+    .slide h2 {
+        font-size: 13px;     
+    }
+
+    .slide p {
+        font-size: 15px;                     
+    }
+
+    .cont iframe{
+        display: none;
+    }
+
+    .title h2{
+        font-size: 12px; 
+    }
+
+    .title h3{
+        font-size: 12px; 
+    }
+
+    .description h3{
+        font-size: 12px;
+    }
+
+    .description p{
+        font-size: 12px; 
+    }
+
+    .info-section{
+        margin-top: 250px;
+    }
+
+    .info h3{
+        font-size: 10px; 
+    }
+
+    .info p{
+        font-size: 10px;
     }
 }
