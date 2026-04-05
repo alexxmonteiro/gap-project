@@ -712,47 +712,54 @@
 }
 
 @media screen and (max-width: 400px){
+    /* Main container padding */
     .txt {
-        padding: 50px;          
+        padding: 50px;          /* Adds 50px internal spacing around .txt elements */
     }
 
+    /* Slide typography */
     .slide h2 {
-        font-size: 13px;     
+        font-size: 13px;        /* Small heading inside slides */
     }
 
     .slide p {
-        font-size: 15px;                     
+        font-size: 15px;        /* Slightly larger paragraph text inside slides */
     }
 
-    .cont iframe{
-        display: none;
+    /* Hide iframes inside .cont containers */
+    .cont iframe {
+        display: none;          /* Completely hides any iframe within .cont */
     }
 
-    .title h2{
-        font-size: 12px; 
+    /* Title section styles */
+    .title h2 {
+        font-size: 12px;        /* Level 2 heading inside .title */
     }
 
-    .title h3{
-        font-size: 12px; 
+    .title h3 {
+        font-size: 12px;        /* Level 3 heading inside .title (same size as h2) */
     }
 
-    .description h3{
-        font-size: 12px;
+    /* Description section styles */
+    .description h3 {
+        font-size: 12px;        /* Level 3 heading inside .description */
     }
 
-    .description p{
-        font-size: 12px; 
+    .description p {
+        font-size: 12px;        /* Paragraph text inside .description */
     }
 
-    .info-section{
-        margin-top: 250px;
+    /* Info section spacing */
+    .info-section {
+        margin-top: 250px;      /* Large top margin to push content down */
     }
 
-    .info h3{
-        font-size: 10px; 
+    /* Info box typography */
+    .info h3 {
+        font-size: 10px;        /* Very small heading inside .info */
     }
 
-    .info p{
-        font-size: 10px;
+    .info p {
+        font-size: 10px;        /* Very small paragraph text inside .info */
     }
 }
